@@ -1,0 +1,56 @@
+
+.movie-grid {
+  padding:20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    margin-top: -170px; /* Move the grid up by 20px (adjust value as needed) */
+  
+}
+
+.movie-grid-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: white;
+  border: 1px solid #3C4A68;
+  border-radius: 8px;
+  width: 200px;
+  overflow-x: auto;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  border-bottom: 1px solid #1a1919;
+}
+
+.movie-card h3 {
+  font-size: 16px;
+  margin: 8px 0;
+  color: black;
+}
+
+.movie-card p {
+  font-size: 14px;
+  color:black; 
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+.movie-card:hover img {
+  transform: scale(1.1); /* Scale up the image slightly on hover */
+}
